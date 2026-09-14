@@ -1,5 +1,29 @@
-data
+# Local data
+data/
+
+# Binary
 linko
+
+# Temporary/editor backup files
 *~
+
+# Dependencies
 vendor/
+
+# Logs
 *.log
+*.log.gz
+
+# Profiling output
+*.prof
+*.pprof.txt
+memory.svg
+
+# Environment
+.env
+.env.*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
